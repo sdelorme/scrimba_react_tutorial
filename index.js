@@ -1,9 +1,16 @@
 import React from "react"
-import ReactDOM from "react-dom"
-import App from "./App"
+import Info from "./Components/Info"
+import About from "./Components/About"
+import Interests from "./Components/Interests"
+import Footer from "./Components/Footer"
 
-<div>
-    <App />
-</div>
-
-ReactDOM.render(<App />, document.getElementById("root"))
+export default function App() {
+    return (
+        <div className="container">
+            <Info />
+            <About />
+            <Interests />
+            <Footer />
+        </div>
+    )
+}
