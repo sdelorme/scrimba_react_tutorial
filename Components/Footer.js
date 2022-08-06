@@ -3,10 +3,10 @@ import React from "react"
 export default function Footer() {
     return (
         <footer>
-            <img src="/Images/facebook.png" />
-            <img src="/Images/twitter.png" />
-            <img src="/Images/instagram.png" />
-            <img src="/Images/github.png" />
+            <img className="icon" src="/Images/facebook.png" />
+            <img className="icon" src="/Images/twitter.png" />
+            <img className="icon" src="/Images/instagram.png" />
+            <img className="icon" src="/Images/github.png" />
         </footer>
     )
 }

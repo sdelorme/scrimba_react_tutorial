@@ -6,14 +6,17 @@ button {
   height: 34px;
   border-radius: 6px;
   font-size: 14px;
-  font-weight: lighter;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .container {
   width: 550px;
-  height: 868px;
+  height: 940px;
   background: #23252C;
   margin: auto;
+  padding: 44px 117px 44px;
 }
 .body {
   background: #1A1B21;
@@ -25,7 +28,11 @@ button {
   width: 317px;
   height: 317px;
   border-radius: 10px 10px 0px 0px;
+  margin: 44px 117px 0px;
   background-image: url("/Images/headshot.png");
+}
+.body--no--background {
+  background-color: #23252C;
 }
 .body > h1 {
   font-weight: 500;
@@ -55,11 +62,10 @@ button {
   font-size: 10.24px;
   line-height: 150%;
   color: #DCDCDC;
-  margin: 0 35px 27px;
+  margin: 5px 35px 27px;
 }
 .links {
   display: flex;
-  gap: 8px;
   justify-content: center;
   margin: 16px 0 33px;
 }
@@ -76,4 +82,21 @@ button {
   border-radius: 6px;
   color: #FFFFFF;
   margin-left: 17px;
+}
+.btn--icon {
+  margin-right: 8px;
+}
+footer {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 117px;
+}
+.icon {
+  width: 25px;
+  padding-left: 20px;
 }
